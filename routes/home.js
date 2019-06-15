@@ -18,7 +18,7 @@ let news = [
 
 app.get('/', function (req, res) {
     res.render('index/index', {
-        title: "EL Profeta | Home",
+        title: "El Profeta | Home",
         news
     });
 });

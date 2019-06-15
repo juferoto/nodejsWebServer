@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/social', function (req, res) {
     res.render('social/index', {
-        title: "EL Profeta | Social"
+        title: "El Profeta | Social"
     });
 });
 
